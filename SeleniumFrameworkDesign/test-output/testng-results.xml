@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T19:44:44 EDT" name="Suite" finished-at="2024-07-03T19:45:10 EDT" duration-ms="26283">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T19:44:44 EDT" name="Submit Order Test" finished-at="2024-07-03T19:45:04 EDT" duration-ms="19933">
+      <class name="ankitframework.SeleniumFrameworkDesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa]" started-at="2024-07-03T19:44:44 EDT" name="launchApplication" finished-at="2024-07-03T19:44:50 EDT" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa]" started-at="2024-07-03T19:44:50 EDT" name="submitOrder" finished-at="2024-07-03T19:45:04 EDT" duration-ms="14119" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set com.sun.tools.javac.util.List field ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.cartProducts to jdk.proxy2.$Proxy14]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set com.sun.tools.javac.util.List field ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.cartProducts to jdk.proxy2.$Proxy14
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+at java.base/java.lang.reflect.Field.set(Field.java:799)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:113)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:101)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:88)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:76)
+at ankitframeworkSeleniumFramework.AbstractComponents.AbstractComponent.<init>(AbstractComponent.java:22)
+at ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.<init>(CartPage.java:22)
+at ankitframeworkSeleniumFramework.AbstractComponents.AbstractComponent.goToCartPage(AbstractComponent.java:48)
+at ankitframework.SeleniumFrameworkDesign.SubmitOrderTest.submitOrder(SubmitOrderTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa]" started-at="2024-07-03T19:45:04 EDT" name="tearDown" finished-at="2024-07-03T19:45:04 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa]" started-at="2024-07-03T19:45:04 EDT" name="OrderHistoryTest" finished-at="2024-07-03T19:45:04 EDT" depends-on-methods="ankitframework.SeleniumFrameworkDesign.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SubmitOrderTest.OrderHistoryTest()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.OrderHistoryTest()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.SubmitOrderTest@429bffaa] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+      </class> <!-- ankitframework.SeleniumFrameworkDesign.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2024-07-03T19:44:44 EDT" name="Error Validations Test" finished-at="2024-07-03T19:45:10 EDT" duration-ms="26283">
+      <class name="ankitframework.SeleniumFrameworkDesign.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:44:44 EDT" name="launchApplication" finished-at="2024-07-03T19:44:50 EDT" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:44:50 EDT" name="LoginErrorValidation" finished-at="2024-07-03T19:44:51 EDT" duration-ms="1207" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...ct email or password[]> but was:<...ct email or password[.]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<...ct email or password[]> but was:<...ct email or password[.]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at ankitframework.SeleniumFrameworkDesign.ErrorValidations.LoginErrorValidation(ErrorValidations.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:44:51 EDT" name="tearDown" finished-at="2024-07-03T19:44:51 EDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:44:51 EDT" name="launchApplication" finished-at="2024-07-03T19:44:56 EDT" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:44:56 EDT" name="ProductErrorValidation" finished-at="2024-07-03T19:45:10 EDT" duration-ms="14022" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set com.sun.tools.javac.util.List field ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.cartProducts to jdk.proxy2.$Proxy14]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set com.sun.tools.javac.util.List field ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.cartProducts to jdk.proxy2.$Proxy14
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+at java.base/java.lang.reflect.Field.set(Field.java:799)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:113)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:101)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:88)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:76)
+at ankitframeworkSeleniumFramework.AbstractComponents.AbstractComponent.<init>(AbstractComponent.java:22)
+at ankitframeworkSeleniumFrameworkDesign.pageobjects.CartPage.<init>(CartPage.java:22)
+at ankitframeworkSeleniumFramework.AbstractComponents.AbstractComponent.goToCartPage(AbstractComponent.java:48)
+at ankitframework.SeleniumFrameworkDesign.ErrorValidations.ProductErrorValidation(ErrorValidations.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ankitframework.SeleniumFrameworkDesign.ErrorValidations@26e356f0]" started-at="2024-07-03T19:45:10 EDT" name="tearDown" finished-at="2024-07-03T19:45:10 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ankitframework.SeleniumFrameworkDesign.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
